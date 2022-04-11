@@ -1,0 +1,151 @@
+@font-face{
+    font-family:'HanyiSentyJournal' ;
+    src: url(../font/HanyiSentyJournal.woff) format('woff'),
+    url(../font/HanyiSentyJournal.ttf) format('truetype'),
+    url(../font/HanyiSentyJournal.eot) format('embedded-opentype')
+  }
+  .main-header{
+    background: linear-gradient(to bottom right, #FBFBFF, #272727);
+
+  }
+  .main-header .container{
+      display: flex;
+      padding: 5px;
+      width: 100%;
+      max-width: 1600px;
+      margin: auto;
+      align-items: center;
+  }
+  .logo{
+      width: 100px;
+  }
+  .logo img{
+       width: 200px;
+      
+       
+  }
+  .main-nav{
+      margin: auto;
+      padding: 5px 1em;
+
+  }
+  .main-nav a{
+      text-decoration:none ;
+      padding: 5px 0.5em;
+      font-size: 30px;
+      position: relative;
+  }
+  .main-nav a:after{
+      content: '';
+      position:absolute;
+      Left: 50%;
+      right: 50%;
+      height: 0;
+      bottom: -5px;
+      border-bottom: 1px solid #272727 ; 
+      transition: .5s; 
+      font-family:'HanyiSentyJournal';
+      
+  }
+  .main-nav a:hover:after{
+      Left: 0;
+      right: 0;
+
+  }
+  .banner{
+      width: 100%;
+       height: 500px;
+       background-color: #ccc;
+       background:linear-gradient(110deg, #BBFFFF 50%,transparent 50%) center center / 100% 100% 
+       , url("https://picsum.photos/1800/600?random=1") right center / auto 100%;
+       
+  }
+  .razer{
+    height: 100%;
+    width: 100%;
+    max-width: 1800px; 
+    margin: auto;
+
+  }
+  .razer-txt{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start ;   
+  }
+  .razer-txt h1{
+      font-size: 80px;
+      border-bottom:1px solid #333 ;
+      font-family: 'Russo One', sans-serif;
+      padding-bottom: 0.3em;
+      margin-bottom: 0.3em;
+      
+} .razer-txt h1 small{
+    display: block;
+    font-size: 53px;
+      
+} .razer-txt h2{
+        font-size: 50px;
+        font-family: 'Russo One', sans-serif;
+        font-weight: 700;
+
+      
+} .razer-txt{
+    font-size: 30px;
+    font-weight: 300;
+}
+.wrap{
+    width: 2000px;
+    margin: auto;
+     padding: 50px;
+}
+.item{
+    float: left;
+    position: relative;
+    margin: 5px;
+}
+.item img{
+    vertical-align: middle;
+    opacity: 0.8;
+}
+.item .txt{
+    position: absolute;
+    top:0;
+    Left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    text-align: center;
+    color: #FBFBFF;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    opacity: 0;
+    transition: 0.5s;
+}
+.item:hover .txt{
+
+    opacity: 1;
+    
+}
+.item h3{ 
+      margin-bottom: 0.4em; ;
+}
+.item p{
+    font-weight:100;
+    font-size: 25px;
+    font-family:'HanyiSentyJournal';
+    line-height: 1.2;
+
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0 0;
+    padding: 10px 0;
+    color: #FBFBFF;
+    
+}

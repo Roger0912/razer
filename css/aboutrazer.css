@@ -1,0 +1,84 @@
+@font-face{
+    font-family:'HanyiSentyJournal' ;
+    src: url(../font/HanyiSentyJournal.woff) format('woff'),
+    url(../font/HanyiSentyJournal.ttf) format('truetype'),
+    url(../font/HanyiSentyJournal.eot) format('embedded-opentype')
+  }
+  .main-header{
+    background: linear-gradient(to bottom right, #FBFBFF, #272727);
+
+  }
+  .main-header .container{
+      display: flex;
+      padding: 5px;
+      width: 100%;
+      max-width: 1600px;
+      margin: auto;
+      align-items: center;
+  }
+  .logo{
+      width: 100px;
+  }
+  .logo img{
+       width: 200px;
+      
+       
+  }
+  .main-nav{
+      margin: auto;
+      padding: 5px 1em;
+
+  }
+  .main-nav a{
+      text-decoration:none ;
+      padding: 5px 0.5em;
+      font-size: 30px;
+      position: relative;
+  }
+  .main-nav a:after{
+      content: '';
+      position:absolute;
+      Left: 50%;
+      right: 50%;
+      height: 0;
+      bottom: -5px;
+      border-bottom: 1px solid #272727 ; 
+      transition: .5s; 
+      font-family:'HanyiSentyJournal';
+      
+  }
+  .main-nav a:hover:after{
+      Left: 0;
+      right: 0;
+
+  }
+  .aboutrazer{
+      width: 1200px;
+      display: flex;
+      margin: auto;
+      background-color: #FBFBFF;
+      margin-top: 50px;
+      padding: 15px;
+
+  }
+  .item{
+    
+      text-align:left;
+      display:flex;
+  }
+  .item img{
+      width: 100%;
+  }
+  .item h1{
+      text-align: center;
+      font-weight: 900;
+      margin-bottom: 0.4em;
+      padding-bottom: 0.3em;
+      font-family:'HanyiSentyJournal';
+  }
+  .item p{
+line-height:1.5;
+font-weight: 300;
+font-family:'HanyiSentyJournal';
+font-size: 25px;
+  }

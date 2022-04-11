@@ -1,0 +1,28 @@
+.form{
+    background-color: aliceblue;
+    width: 1300px;
+    margin: auto;
+    background-color: #FBFBFF;
+    margin-top: 50px;
+    padding: 10px;
+}
+.conntect{
+    text-align: center;
+    font-family:'HanyiSentyJournal';
+    font-size: 40px;
+}
+
+
+.txt{
+    line-height:1.5;
+    font-weight: 300;
+    font-family:'HanyiSentyJournal';
+    font-size: 25px;
+    padding: 15px;
+}
+.txt h2{
+    font-weight: 900;
+    margin-bottom: 0.4em;
+    margin-top: 0.4em;
+    font-family:'HanyiSentyJournal';
+}
